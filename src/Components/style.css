@@ -1,0 +1,96 @@
+.navul li{
+    font-size: 19px;  
+    color: lightgrey;
+}
+.navul li:hover{
+ color: white;
+ color: #33A9DB;
+}
+.navbrand{
+    font-size: 26px;
+    color: lightgray;
+}
+.navactive{
+    border-bottom:2px solid white ;
+}
+.homebtn{
+    font-size: large;
+    font-weight: 600;
+    padding: .11in 0;
+    letter-spacing: 1px;
+}
+.homeimg{
+    /* height: 48vh; */
+    transform: scaleX(-1);  
+}
+.cardimg{
+width: 6rem;
+}
+.cardtext{
+    font-size: 1.6rem;
+}
+.servicespg{
+    height: 93.5vh;
+}
+
+.aboutdiv{
+    border-top: 1px solid gray;
+}
+
+
+@media(max-width:768px){
+    .servicespg{
+        height:100%;
+    }
+    
+.four04h1{
+    font-size: 15vh;     
+   }
+}
+@media(min-width:768px) and (max-width:1024px){
+
+    .four04h1{
+        font-size: 20vh;     
+       }
+       .servicespg{
+        height:100%;
+    }
+}
+@media(min-width:1024px){
+   .sec1div{
+    height: 93vh;
+}
+    .homeh1{
+      font-size: 6vh;
+    }
+    
+    .homeimgdiv{
+        margin-left: 1.5in;
+        
+    }
+    .homeimg{
+        animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    }
+    .four04h1{
+     font-size: 40vh;     
+    }
+    .image{
+        height: 15rem;
+    max-height: 15rem ;
+    }
+    @keyframes up-down {
+        0%{
+            transform: translateY(10px);
+        }
+        100%{
+            transform: translateY(-10px);
+        }
+    }
+   
+}
+.four04{
+    height: 93.5vh;
+    background-image: url("https://www.japantimes.co.jp/wp-content/uploads/2019/12/p9-flam-a-20191210.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
